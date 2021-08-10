@@ -9,30 +9,30 @@
 
 ## Installation <a name="installation"></a>
 
-There should be no necessary libraries to run the code here beyond the Anaconda distribution of Python.  The code should run with no issues using Python versions 3.*.
+This code uses Python versions 3.*.
+The specific libraries required are Pandas and Matplotlib.
 
 ## Project Motivation<a name="motivation"></a>
 
-Having watched the Tokyo 2020 Olympics:
+This project is part of the Udacity Data Science NanoDegree Programme.
 
-1. How other developers suggested breaking into the field (what education to pursue)?
-2. What factors about an individual contributed to salary?
-3. How bias played a role in the suggestions of developers for how to break into the field?
-4. What was the state of bootcamps for assisting individuals with breaking into developer roles?
-5. How were bootcamps assisting with increasing diversity in tech careers?
+Having watched Team GB's performance at the Tokyo 2020 Olympics, I was keen to find out more about my home country's performance in prior events:
 
-The full set of files related to this course are owned by Udacity, so they are not publicly available here.  However, you can see pieces of the analysis here.  This README also serves as a template for students to follow in creating their own project README files.
+1. Q1
+2. Q2
+3. Q3
 
 
 ## File Descriptions <a name="files"></a>
 
-There are 3 notebooks available here to showcase work related to the above questions.  Each of the notebooks is exploratory in searching through the data pertaining to the questions showcased by the notebook title.  Markdown cells were used to assist in walking through the thought process for individual steps.  
+1. `notebook.ipynb` contains the code for data reading, wrangling, exploration and visualizations.
+2. `athlete_events.csv` is the main data source for the project, which contains information about athletes participating in Olympics.
+3. `events.csv` manually populated file to class events as ethier indvidual or team events, necessary for getting accurate medal counts.
 
-There is an additional `.py` file that runs the necessary code to obtain the final model used to predict salary.
 
 ## Results<a name="results"></a>
 
-The main findings of the code can be found at the post available [here](https://medium.com/@josh_2774/how-do-you-become-a-developer-5ef1c1c68711).
+The main findings of the code can be found at the post available [here](<ADD LINK TO MEDIUM>).
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
