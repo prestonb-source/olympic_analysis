@@ -9,24 +9,28 @@
 
 ## Installation <a name="installation"></a>
 
-This code uses Python versions 3.*.
-The specific libraries required are Pandas and Matplotlib.
+This code uses Python version 3.*.<br/>
+The specific libraries required are: 
+
+1. Pandas
+2. Matplotlib
+3. Numpy
+4. Seaborn
 
 ## Project Motivation<a name="motivation"></a>
 
-This project is part of the Udacity Data Science NanoDegree Programme.
+This project is part of the Udacity Data Science Nanodegree Programme.
 
-Having watched Team GB's performance at the Tokyo 2020 Olympics, I was keen to find out more about my home country's performance in prior events:
+Having watched Team GB's performance at the Tokyo 2020 Olympics, I was keen to find out more about my home country's performance in prior Olympic Games, specifically I wanted to understand:
 
-1. Q1
-2. Q2
-3. Q3
-
+Q1. Which have been the top 5 most successful Olympics for Team GB?
+Q2. Which events have team GB been the most successful in, how has this changed over time?
+Q3. How well have women been represented in Team GB vs other countries?
 
 ## File Descriptions <a name="files"></a>
 
-1. `notebook.ipynb` contains the code for data reading, wrangling, exploration and visualizations.
-2. `athlete_events.csv` is the main data source for the project, which contains information about athletes participating in Olympics.
+1. `OlympicsNotebook.ipynb` contains the code for data reading, wrangling, exploration and visualizations.
+2. `athlete_events.csv` data source for the project, contains data in on all atheletes participating in the modern olympic games
 3. `events.csv` manually populated file to class events as ethier indvidual or team events, necessary for getting accurate medal counts.
 
 
@@ -36,5 +40,5 @@ The main findings of the code can be found at the post available [here](<ADD LIN
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
-Must give credit to Stack Overflow for the data.  You can find the Licensing for the data and other descriptive information at the Kaggle link available [here](https://www.kaggle.com/stackoverflow/so-survey-2017/data).  Otherwise, feel free to use the code here as you would like! 
+The data was sourced from Randi Griffin on Kaggle. You can find the licensing for the data and other descriptive information at the Kaggle link available [here](https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results/version/2).
 
